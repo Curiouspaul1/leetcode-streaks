@@ -2,7 +2,8 @@
 
 ## How To Submit
 
-- Add a branch named after your whatsapp username
+- Clone the repo, don't fork, and don't send any PRs.
+- Add a branch named after your whatsapp username, this is where you will push your submissions.
 - All daily submissions for each will be added inside a folder named after the topic for the week - in this branch
 - Solve the problem, and take a screenshot of your leetcode submission
 -  You may submit a link to the image or the image itself inside the folder
