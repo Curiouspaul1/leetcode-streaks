@@ -14,7 +14,7 @@ func search(nums []int, target int) int {
 
 	for left <= right {
 		mid := ((left + right) / 2) + 1
-		//fmt.Printf("left: %v , right: %v , mid: %v \n", left, right, mid)
+		fmt.Printf("left: %v , right: %v , mid: %v \n", left, right, mid)
 		if nums[mid] == target {
 			return mid
 		} else if nums[mid] < target {
