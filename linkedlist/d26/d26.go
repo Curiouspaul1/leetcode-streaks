@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	ans := reverseList(&ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}})
+	input := ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
+	ans := reverseList(&input)
 	fmt.Println(ans)
 }
 
